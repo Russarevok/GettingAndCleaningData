@@ -230,3 +230,14 @@ write.table(tidyaggdata, "tidyaggdata", row.name=FALSE)
 # tidyaggdatacolnames <- transpose(tidyaggdatacolnames)
 # 
 # tidyaggdatacolnames
+
+# # Code to look at the Tidy Data Set
+# #
+# # 1. Set your working directory:
+# # for example: setwd("C:/Users/UserX/Documents/Coursera/Data Science Specialization Certificate/Course 3 - Getting and Cleaning Data/Week4/Course Project/UCI HAR Dataset")
+# # Read the table in
+# td_file = "tidyaggdata"
+# td <- read.table(td_file,sep = "",header = TRUE)
+# # View it
+# View(td)
+
